@@ -13,12 +13,19 @@ private:
     vector<Product> products;
 
 public:
+    
     // Function to add a product to the bill
-    void addProduct(const Product& product) {
-        products.push_back(product);
-    }
-
-    // Function to calculate and display the bill
+	void addProduct(const Product& product) {
+	    if (product.getQuantity() <= 0) {
+	        cout << "Product '" << product.getName() << "' is out of stock." << endl;
+	    } else {
+	        products.push_back(product);
+	        cout << "Product '" << product.getName() << "' added to the bill." << endl;
+	    }
+	}
+	
+	
+	    // Function to calculate and display the bill
     void generateBill() const {
         float total = 0.0;
         cout << "Bill Details:" << endl;
