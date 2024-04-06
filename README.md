@@ -26,11 +26,11 @@ Usage:
 
 File Structure
 *	main.cpp: Contains the main function and user interface.
-*	
+ 
 *	Stock.h and Stock.cpp: Define the Stock class and its functions for managing the inventory.
-*	
+  
 *	Bill.h and Bill.cpp: Define the Bill class and its functions for generating bills.
-*	
+  
 * stock.txt: Text file to store the stock details.
 
 Setup:
