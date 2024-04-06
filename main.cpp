@@ -76,7 +76,7 @@ int main() {
     Bill supermarketBill;
 
     // Add the full path to the stock file
-    string stockFileName = "C:\\Program Files (x86)\\Desktop\\oops project\\stock.txt";
+    string stockFileName = "stock.txt";
 
 
     // Load existing stock from file
